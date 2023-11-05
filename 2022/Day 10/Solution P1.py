@@ -39,3 +39,5 @@ for i in data:
         x, cycle, ss_sum = addx(x, int(i[1]), cycle, ss_sum)
     else:
         print("error")
+
+print(f"\nEndergebnis: {ss_sum}\n")
