@@ -21,7 +21,6 @@ def addx(x, v, c, ss_sum):
     c += 1
     ss_sum = compare(c, x, ss_sum)
     # end cycle 2: changed x
-    c += 1
     x += v
     return x, c, ss_sum
 
