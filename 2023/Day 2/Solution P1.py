@@ -1,4 +1,4 @@
-data = open("2023\Day 2\input.in").read().split('\n')
+data = open("2023\Day 2\Input.in").read().split('\n')
 print(data)
 CHARS = [' ',',',';',':']
 COLORS = ['red','green','blue']

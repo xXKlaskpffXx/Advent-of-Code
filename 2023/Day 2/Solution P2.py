@@ -1,4 +1,4 @@
-data = open("2023\Day 2\input.in").read().split('\n')
+data = open("2023\Day 2\Input.in").read().split('\n')
 CHARS = [' ',',',';',':']
 COLORS = ['red','green','blue']
 mincubes = [0,0,0]
