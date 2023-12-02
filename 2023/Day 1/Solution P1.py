@@ -2,7 +2,6 @@ data = open("2023\Day 1\Input.in").read().split('\n')
 sum = 0
 
 for i in data:
-
     for j in list(i):
         if j.isnumeric():
             fstnum = j
