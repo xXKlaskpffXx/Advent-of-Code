@@ -21,7 +21,6 @@ def checkifvalidgear(x, y, vals):
         return True, product
     return False, 0
 
-
 def writevalue(list, x, y, val):
     list[0].append(x-1)
     list[1].append(y)
@@ -33,7 +32,6 @@ def writecharacter(list, x, y, gear):
     list[1].append(y)
     list[2].append(gear)
     return list
-
 
 #storing the values and chars
 for i in data:
