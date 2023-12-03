@@ -36,6 +36,11 @@ for i in data:
                 values[2].append(value)
                 value = 0
         x += 1
+    if not value == 0: 
+        values[0].append(x-1)
+        values[1].append(y)
+        values[2].append(value)
+        value = 0
     x = 0
     y += 1
 y = 0
